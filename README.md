@@ -1,16 +1,17 @@
-## Database Systems
+              Internal attachment : Database Systems
 
 This assignment involves practical tasks using the MySQL command-line interface to demonstrate understanding of core database concepts. The tasks include creating and managing databases, identifying entities and relationships for a medical center system, designing tables, adding primary keys, enforcing relationships, populating tables with data, and running SQL commands for updating, deleting, and querying relational data. All steps are supported with screenshots as required.
 
-1. A command showing all databases on the system.
+1. Run the command to show all the databases on the system. Take a screenshot of the output [2 marks]
 ![alt text](<Command showing all databases on the system.png>)
 
-1. Create a database and give it your name.
+2. Create a database and give it your name. Run the command to show all the databases on the system again. Take a screenshot of the output [3 marks]
 
 ![alt text](<create database.png>)
 
-4. Laikipia University Medical Center Database Design.
-   i. Entities:
+3.  Laikipia University Medical Center would like to automate all their services and you have
+been tasked to come up with the system’s database. Note that it serves students, staff and other visitors.
+   i. Identify the entities in this system (at least 5) [5 marks]
 
     - Patients
     - Staff
@@ -18,7 +19,7 @@ This assignment involves practical tasks using the MySQL command-line interface 
     - Treatments
     - Medications
 
-ii. Attributes for each entity:
+  ii.  Identify the attributes of each entity [10 marks]
 
 - Patients: patient_id, name, dob, gender, contact, patient_type (student/staff/visitor)
 - Staff: staff_id, name, specialization, contact, hire_date
@@ -26,13 +27,14 @@ ii. Attributes for each entity:
 - Treatments: treatment_id, name, description, cost
 - Medications: medication_id, name, dosage, stock_quantity
 
-iii. Relationships:
+iii. Identify any relationships that may exist between the entities [5 marks]
 - Patients have many Appointments (1:M)
 - Staff have many Appointments (1:M)
 - Appointments may have many Treatments (M:M) - needs junction table
 - Treatments may involve many Medications (M:M) - needs junction table
 
-iv. Use a command to display each table’s structure
+iv.  Using the database created above, create a table for each entity. Use a command to
+display each table’s structure and take a screenshot. [10 marks]
 
  - Patients table
  ![alt text](image.png)
@@ -49,7 +51,8 @@ iv. Use a command to display each table’s structure
 - Medications table
   ![alt text](image-4.png)
 
-v. For each table, identify the primary key. Use a command to alter the table so as to add a primary key to the table
+v. For each table, identify the primary key. Use a command to alter the table so as to add a
+primary key to the table. Take a screenshot of each table’s structure [5 marks]
 
 - Altered Patients table
     ![alt text](<Screenshot from 2025-08-06 15-21-26.png>)
@@ -67,7 +70,8 @@ v. For each table, identify the primary key. Use a command to alter the table so
     ![alt text](image-9.png)
 
 
-vi. For each relationship identified in (iii) above, run commands to create the relationship in the database.
+vi. For each relationship identified in (iii) above, run commands to create the relationship
+in the database. Take a screenshot of any tables affected by these commands [5 marks]
 
   ## Add foreign keys to Appointments and create junction tables for many to many relationships
 
