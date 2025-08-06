@@ -1,11 +1,9 @@
-              Internal attachment : Database Systems
-
-This assignment involves practical tasks using the MySQL command-line interface to demonstrate understanding of core database concepts. The tasks include creating and managing databases, identifying entities and relationships for a medical center system, designing tables, adding primary keys, enforcing relationships, populating tables with data, and running SQL commands for updating, deleting, and querying relational data. All steps are supported with screenshots as required.
+Internal attachment : Database Systems
 
 1. Run the command to show all the databases on the system. Take a screenshot of the output [2 marks]
 ![alt text](<Command showing all databases on the system.png>)
 
-2. Create a database and give it your name. Run the command to show all the databases on the system again. Take a screenshot of the output [3 marks]
+1. Create a database and give it your name. Run the command to show all the databases on the system again. Take a screenshot of the output [3 marks]
 
 ![alt text](<create database.png>)
 
